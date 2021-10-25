@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.conteiner{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.fon{
+    background: white;
+    border: 2px solid lightgray;
+    width: 500px;
+    height: 350px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    width: 150px;
+    height: 150px;
+    background: red;
+    border-radius: 50%;
+}
+h1{
+    text-align: center;
+}
+.logo{
+    width: 500px;
+    height: 500px;
+    background: rgb(241,255,0);
+    background: linear-gradient(5deg, rgba(241,255,0,1) 0%, rgba(159,125,13,1) 17%, rgba(221,43,49,1) 34%, rgba(182,10,175,1) 58%, rgba(110,35,189,1) 77%, rgba(80,42,193,1) 84%, rgba(106,68,203,1) 95%);
+    margin: 0 auto;
+    border-radius: 80px;
+}
+.in-line{
+    border: 30px solid white;
+    width: 380px;
+    height: 380px;
+    border-radius: 80px;
+    position: relative;
+    right: 60px;
+    top: 60px;
+    left: 60px;
+}
+.inst-circle{
+    height: 150px;
+    width: 150px;
+    border: 30px solid white;
+    border-radius: 50%;
+    position: relative;
+    top: -200px;
+    right: -176px;
+}
+.inst-circle::after{
+    content:'';
+    width: 50px;
+    border-radius: 50%;
+    height: 50px;
+    background: white;
+    position: absolute;
+    right: -89px;
+    top: -90px;
+}
